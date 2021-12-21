@@ -1,4 +1,4 @@
-package aula2.ex2;
+package aula2.ex2.manha;
 
 public class Util {
     public static double areaMedia (FiguraGeometrica arr [ ]){

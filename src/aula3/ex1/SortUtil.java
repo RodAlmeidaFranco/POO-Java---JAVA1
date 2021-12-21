@@ -10,7 +10,6 @@ public class SortUtil {
             for (int j = 0; j < n-i-1; j++)
                 if (arr[j].precedeA((T) arr[j+1]) > 0)
                 {
-                    // swap arr[j+1] and arr[j]
                     Precedente<T> temp = (Precedente<T>) arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
